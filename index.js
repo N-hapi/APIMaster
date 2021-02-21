@@ -9,7 +9,7 @@ const genres = [
   { id: 2, name: 'Horror' },  
   { id: 3, name: 'Romance' },  
 ];
-
+//yes
 
 app.get('/api/genres', (req, res) => {
   res.send(genres);
